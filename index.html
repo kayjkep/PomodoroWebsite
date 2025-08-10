@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-content">
+      <header>
+        <h1>Pomodoro Timer</h1>
+        <h2>ポモドーロ・タイマー</h2>
+      </header>
+
+      <!-- Audio Files -->
+      <audio
+        id="take-a-break-sound"
+        src="sounds/takebreak.mp3"
+        preload="auto"
+      ></audio>
+      <audio
+        id="resume-studying-sound"
+        src="sounds/resumestudying.mp3"
+        preload="auto"
+      ></audio>
+
+      <div class="container">
+        <div class="center">
+          <div class="img-container">
+            <img src="studying.gif" alt="someone studying to motivate you" />
+          </div>
+
+          <!-- Control Buttons -->
+          <div class="control-buttons">
+            <button class="pomodoro-button">ポモドーロ<br />Pomodoro</button>
+            <button class="short-break-button">
+              短い休憩<br />Short Break
+            </button>
+            <button class="long-break-button">
+              長めの休憩<br />Long Break
+            </button>
+          </div>
+
+          <div class="content-row">
+            <div class="timer-section">
+              <div class="timer-square" id="timer">25:00</div>
+              <div class="start-button-spacing">
+                <button class="start-button">開始 Start</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

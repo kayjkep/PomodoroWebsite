@@ -1,0 +1,91 @@
+body {
+  background-color: #c0cfb2;
+  font-family: "Kiwi Maru", serif;
+}
+
+header {
+  background-color: #8ba888;
+  padding: 10px;
+  font-family: "Kiwi Maru", serif;
+  text-align: center;
+  color: #f1ebe1;
+}
+
+header h2 {
+  margin-top: -20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.center {
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+button {
+  border-radius: 12px;
+  background-color: #8ba888;
+  color: #f1ebe1;
+  font-family: "Kiwi Maru", serif;
+  border: none;
+  padding: 15px 32px;
+}
+
+.pomodoro-button:hover {
+  background-color: #44624a;
+  transition-duration: 0.4s;
+}
+
+.short-break-button:hover {
+  background-color: #44624a;
+  transition-duration: 0.4s;
+}
+
+.long-break-button:hover {
+  background-color: #44624a;
+  transition-duration: 0.4s;
+}
+
+.start-button:hover {
+  background-color: #44624a;
+  transition-duration: 0.4s;
+}
+
+.timer-square {
+  border: 2px solid #8ba888;
+  padding: 20px;
+}
+
+.control-buttons {
+  padding: 20px;
+}
+
+.start-button-spacing {
+  padding: 20px;
+}
+
+img {
+  border: 5px solid #8ba888;
+  border-radius: 12px;
+  height: 200px;
+  width: 350px;
+}
+
+.img-container {
+  padding: 20px;
+}
+
+#timer.timer-square {
+  color: #f1ebe1;
+  font-size: 30px;
+}
